@@ -6,19 +6,19 @@ const config = {
     version: version+'::',
     preCachingItems: [
         'https://cdn.jsdelivr.net/gh/mohcinebe/pwatester/app.bundle.js',
-        'index.html',
+        'https://tvpwatest.blogspot.com',
         'https://cdn.jsdelivr.net/gh/mohcinebe/pwatester/index.js',
-        'p/offline.html',
-        'p/404.html',
+        'https://tvpwatest.blogspot.com/p/offline.html',
+        'https://tvpwatest.blogspot.com/p/404.html',
         'https://cdn.jsdelivr.net/gh/mohcinebe/pwatester/sw.js'
     ],
     blacklistCacheItems: [
-        'index.html',
+        'https://tvpwatest.blogspot.com',
         'https://cdn.jsdelivr.net/gh/mohcinebe/pwatester/service-worker.js'
     ],
     offlineImage: '<svg role="img" aria-labelledby="offline-title"' + ' viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">' + '<title id="offline-title">Offline</title>' + '<g fill="none" fill-rule="evenodd"><path fill="#aaa" d="M0 0h400v300H0z"/>' + '<text fill="#222" font-family="monospace" font-size="32" font-weight="bold">' + '<tspan x="136" y="156">offline</tspan></text></g></svg>',
-    offlinePage: 'p/offline.html',
-    notFoundPage: 'p/404.html'
+    offlinePage: 'https://tvpwatest.blogspot.com/p/offline.html',
+    notFoundPage: 'https://tvpwatest.blogspot.com/p/404.html'
 };
 
 function cacheName(key, opts) {
