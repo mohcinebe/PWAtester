@@ -5,20 +5,20 @@ const config = {
     cacheRemote: true,
     version: version+'::',
     preCachingItems: [
-        'https://cdn.jsdelivr.net/gh/mohcinebe/pwatester/app.bundle.js',
-        'https://tvpwatest.blogspot.com',
-        'https://cdn.jsdelivr.net/gh/mohcinebe/pwatester/index.js',
-        'https://tvpwatest.blogspot.com/p/offline.html',
-        'https://tvpwatest.blogspot.com/p/404.html',
-        'https://cdn.jsdelivr.net/gh/mohcinebe/pwatester/sw.js'
+        '//cdn.jsdelivr.net/gh/mohcinebe/pwatester/app.bundle.js',
+        '//tvpwatest.blogspot.com',
+        '//cdn.jsdelivr.net/gh/mohcinebe/pwatester/index.js',
+        '//tvpwatest.blogspot.com/p/offline.html',
+        '//tvpwatest.blogspot.com/p/404.html',
+        '//cdn.jsdelivr.net/gh/mohcinebe/pwatester/sw.js'
     ],
     blacklistCacheItems: [
-        'https://tvpwatest.blogspot.com',
-        'https://cdn.jsdelivr.net/gh/mohcinebe/pwatester/service-worker.js'
+        '//tvpwatest.blogspot.com',
+        '//cdn.jsdelivr.net/gh/mohcinebe/pwatester/service-worker.js'
     ],
     offlineImage: '<svg role="img" aria-labelledby="offline-title"' + ' viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">' + '<title id="offline-title">Offline</title>' + '<g fill="none" fill-rule="evenodd"><path fill="#aaa" d="M0 0h400v300H0z"/>' + '<text fill="#222" font-family="monospace" font-size="32" font-weight="bold">' + '<tspan x="136" y="156">offline</tspan></text></g></svg>',
-    offlinePage: 'https://tvpwatest.blogspot.com/p/offline.html',
-    notFoundPage: 'https://tvpwatest.blogspot.com/p/404.html'
+    offlinePage: '//tvpwatest.blogspot.com/p/offline.html',
+    notFoundPage: '//tvpwatest.blogspot.com/p/404.html'
 };
 
 function cacheName(key, opts) {
