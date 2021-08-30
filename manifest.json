@@ -6,7 +6,7 @@
   "background_color": "white",
   "display": "standalone",
   "Scope": "./",
-  "start_url": "/",
+  "start_url": "https://tvpwatest.blogspot.com/",
   "icons": [
     {
       "src": "https://mohcinebe.github.io/PWAtester/images/icons/icon-72x72.png",
