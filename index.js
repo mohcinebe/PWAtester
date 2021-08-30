@@ -5,9 +5,9 @@ let viewPager;
 let topicIndicator;
 let topicButtons;
 
-zuix.using('script', 'https://mohcinebe.github.io/PWAtester/service-worker.js');
+zuix.using('script', '//mohcinebe.github.io/PWAtester/service-worker.js');
 zuix.using('style', '//zuixjs.github.io/zkit/css/flex-layout-attribute.min.css');
-zuix.using('style', 'https://mohcinebe.github.io/PWAtester/index.css');
+zuix.using('style', '//mohcinebe.github.io/PWAtester/index.css');
 
 zuix.$.find('.profile').on('click', function() {
     if (drawerLayout) drawerLayout.open();
